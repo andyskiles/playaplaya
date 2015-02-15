@@ -3,3 +3,66 @@
 Partials-Page
 ========================
 */
+
+main {
+	padding: 20px 0;
+}
+
+
+
+
+
+.player-meta {
+	background: lighten(black, 10%);
+
+	// photo
+	img {
+		display: block;
+	}
+
+	// name
+	h1 {
+		background: $blue;
+		color: white;
+		text-shadow: 1px 1px 1px whitesmoke;
+		padding: 0 10px;
+		margin-bottom: .2em;
+		text-transform: uppercase;
+	}
+
+	// number
+	h1 span {
+		float: right;
+		height: 80px;
+		width: 80px;
+		background: whitesmoke;
+		color: black;
+		border-radius: 100%;
+		padding: 15px 10px;
+	}
+
+	// position
+	h2 {}
+
+	// previous club
+	h3 {}
+
+	// height & weight
+	h5 {
+
+		&:first-of-type {
+			margin-top: .3em;
+		}
+	}
+
+	// description
+	p {
+		margin-top: 1em;
+	}
+}
+
+.player-details {
+	background: lighten(black, 10%);
+	padding: 10px 12px;
+	color: whitesmoke;
+}
