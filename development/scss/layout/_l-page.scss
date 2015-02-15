@@ -5,5 +5,12 @@ Layout-Page
 */
 
 main {
-	@include container(95vw);
+
+	@include bp(m) {
+		@include container(85vw);
+	}
+
+	@include bp(l) {
+		@include container(60vw);
+	}
 }
